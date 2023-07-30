@@ -1,0 +1,22 @@
+
+<html lang="en">
+
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Index</title>
+</head>
+
+
+<body>
+    <div class="container">
+            <div class="row justify-content-center">
+                <button type="submit" class="btn btn-success"> <a href="{% url 'account_signup' %}">SIGNUP</a> </button>
+                <button type="submit" class="btn btn-success"> <a href="{% url 'account_login' %}">LOGIN</a></button>
+                <button type="submit" class="btn btn-success"> <a href="{% url 'web:contact_view' %}">CONTACT US</a></button>
+            </div>
+    </div>
+</body>
+
+</html>

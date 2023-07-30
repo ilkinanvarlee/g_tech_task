@@ -1,0 +1,6 @@
+django==3.2
+django-crispy-forms==1.14.0
+python-dotenv
+django-allauth
+channels==3.0.5
+channels-redis==3.4.1
